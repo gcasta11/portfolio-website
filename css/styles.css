@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F9FF; /* Soft light blue background */
+    color: #444444; /* Dark text color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    background-color: #F7A8B8; /* Soft pink background for the toggler */
+}
+
+/* Header Section */
+header.jumbotron {
+    background: linear-gradient(to right, #F7A8B8, #FFB6C1); /* Fairyfloss pink gradient */
+    color: #fff;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+header a.btn {
+    background-color: #FFCCE5; /* Light pink button color */
+    color: #5A5A5A;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+header a.btn:hover {
+    background-color: #F7A8B8; /* Hover effect for button */
+    color: white;
+}
+
+/* About Myself Section */
+.about-myself p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* Main Container */
+#container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+/* Footer Styles */
+footer.jumbotron-fluid {
+    background: #F7A8B8; /* Soft pink for footer */
+    color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header a.btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    footer.jumbotron-fluid {
+        padding: 20px;
+    }
+}
